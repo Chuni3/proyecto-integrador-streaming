@@ -12,9 +12,9 @@ st.set_page_config(
 # ==========================================
 st.markdown("""
 <div style="background-color: #0E1117; padding: 30px; border-radius: 15px; border: 2px solid #4B4B4B; text-align: center; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-    <h1 style="color: #4CB4F3; margin-bottom: 10px;">🎬 Proyecto Integrador: Análisis de Plataforma de Streaming</h1>
+    <h1 style="color: #4CB4F3; margin-bottom: 10px;">🎬 Proyecto Integrador: proyecto integrador</h1>
     <h3 style="color: #E0E0E0; margin-top: 0px;">Minería de Datos</h3>
-    <p style="color: #A0A0A0; font-size: 18px; margin-top: 20px;">Presentado por: <b>[Escribe tu Nombre Aquí]</b></p>
+    <p style="color: #A0A0A0; font-size: 18px; margin-top: 20px;">Presentado por: <b>Baudano Walter Gabriel</b></p>
 </div>
 """, unsafe_allow_html=True)
 
