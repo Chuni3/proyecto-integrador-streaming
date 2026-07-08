@@ -1,0 +1,8 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+Paso 0,Carga inicial,8160,753,100.0
+Paso 1,Filtro de edad (18-100),7313,692,89.62
+Paso 2,Estandarización de planes,7313,692,89.62
+Paso 3,Limpieza de minutos mensuales,7240,509,88.73
+Paso 4,Filtro de tickets extremos,7152,505,87.65
+Paso 5,Estandarización de países y géneros,7152,288,87.65
+Paso 6,Filtro de fechas inválidas,6464,0,79.22
