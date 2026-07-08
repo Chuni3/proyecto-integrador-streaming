@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# 1. Configuración de la página
+
 st.set_page_config(page_title="Exploración del Dataset", page_icon="📊")
 
 st.title("📊 Exploración del Dataset")
@@ -12,13 +12,12 @@ Hemos habilitado dos pestañas para que puedas comparar el archivo original (con
 
 st.divider()
 
-# 2. Carga de datos con protección de errores (try/except)
-# Usamos las rutas relativas desde la raíz del proyecto
+
 try:
     df_raw = pd.read_json('data/raw/dataset_PI.json')
     df_limpio = pd.read_csv('data/processed/dataset_limpio.csv')
     
-    # 3. Creación de pestañas interactivas
+    
     tab1, tab2 = st.tabs(["✨ Dataset Limpio (Procesado)", "⚠️ Dataset Original (Crudo)"])
     
     with tab1:

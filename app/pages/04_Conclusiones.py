@@ -22,6 +22,3 @@ A lo largo de este análisis exploratorio y de dimensionalidad, hemos llegado a 
 * Tenemos una cantidad limitada de variables descriptivas, lo que no nos permite basarnos en algo concreto a la hora de determinar, por ejemplo, por qué los usuarios acudieron a un plan específico.
 
 """)
-
-# Mensaje de cierre
-st.success("¡Análisis completado con éxito! Gracias por revisar nuestro proyecto.")

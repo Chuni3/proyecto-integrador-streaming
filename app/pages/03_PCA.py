@@ -8,7 +8,6 @@ import seaborn as sns
 st.set_page_config(page_title="PCA", page_icon="🧬")
 st.title("🧬 Análisis de Componentes Principales")
 
-# Cargar datos
 df = pd.read_csv('data/processed/dataset_limpio.csv')
 features = ['age', 'monthly_watch_time_mins', 'customer_support_tickets']
 x = df[features].dropna()
